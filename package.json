@@ -18,6 +18,7 @@
   "homepage": "https://github.com/govyazina/ITgirls_week22#readme",
   "dependencies": {
     "browserify": "^17.0.0",
+    "calendar-dates": "^2.7.2",
     "chart.js": "^4.2.0"
   }
 }
