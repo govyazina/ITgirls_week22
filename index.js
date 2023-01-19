@@ -83,7 +83,9 @@ function fetchData(startDate, endDate) {
     url.searchParams.set('timezone', 'auto');
     url.searchParams.set('start_date', startDate.toISOString().slice(0, 10));
     url.searchParams.set('end_date', endDate.toISOString().slice(0, 10));
-    return fetch(url).then(resp => resp.json()).then(res => res.daily);
+    return fetch(url).then(resp => resp.ok ? resp.json() : Promise.reject(resp)).then(res => res.daily).catch(err => {
+        return {}
+    });
 
 }
 
