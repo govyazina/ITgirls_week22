@@ -19,6 +19,7 @@
   "dependencies": {
     "browserify": "^17.0.0",
     "calendar-dates": "^2.7.2",
-    "chart.js": "^4.2.0"
+    "chart.js": "^4.2.0",
+    "materialize-css": "^1.0.0-rc.2"
   }
 }
