@@ -1,0 +1,23 @@
+{
+  "name": "week-22",
+  "version": "1.0.0",
+  "description": "work with Browserify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/govyazina/ITgirls_week22.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/govyazina/ITgirls_week22/issues"
+  },
+  "homepage": "https://github.com/govyazina/ITgirls_week22#readme",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "chart.js": "^4.2.0"
+  }
+}
